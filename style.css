@@ -1,0 +1,84 @@
+*{
+    /* width: ; */
+    /* height: 80%; */
+    /* box-sizing: content-box; */
+    /* margin: 0px;
+    padding: 0px; */
+}
+
+.container{
+    display: flex;
+    border: 2px solid black;
+    width: 33%;
+    margin-left: 500px;
+    margin-top: 0px;
+}
+
+.row
+{
+       /* display: flex;
+       padding: 10px; */
+        display: flex;
+        align-items: center; /* Align content vertically */
+        justify-content: space-between; /* Spread items across the row */
+        padding: 10px;
+        width: 100%; /* Ensure row stretches within the container */
+    }
+    
+.col-25{
+   
+}
+
+.col-75{
+   /* border-radius: 1px solid black;  */
+   /* border: 2px solid black; */
+   /* width: 90px; */
+   /* width: 80px; */
+   
+   /* padding-left: 15px; */
+   width: 75%; /* Take the remaining space */
+   padding-left: 15px;
+
+}
+
+input{
+  
+    border-radius: 10px;
+    width: 90%; /* Ensure input stretches fully */
+    height: 25px;
+    padding: 5px;
+}
+
+#gender{
+    width: 50px;
+    height: 10px;
+
+}
+
+#hobby{
+    width: 50px;
+    height: 10px;
+
+}
+select{
+    height: 40px;
+    width: 350px;
+    /* padding: 10px; */
+}
+h1{
+    margin-left: 650px;
+}
+
+button{
+    margin-left: 100px;
+    width: 130px;
+    height: 35px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: rgb(2, 123, 255);
+    color: white;
+}
+#reset{
+    margin-left: 40px;
+    /* color: brown; */
+}
